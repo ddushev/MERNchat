@@ -11,10 +11,6 @@ const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
-// app.get("/", (_req, res) => {
-//     res.send("Hello MERN chat!");
-// });
-
 app.use(express.json()); // parse incoming requests with JSON payloads
 app.use(cookieParser());
 
