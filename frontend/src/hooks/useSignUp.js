@@ -1,10 +1,12 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import trimValuesReducer from "../utils/trimValuesReducer";
+import { useAuthContext } from "../../context/authContext";
 
 
 const useSignUp = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const { setAuthUser } = useAuthContext();
 
   const signUp = async (inputs) => {
     const trimmedInputs = trimValuesReducer(inputs);
@@ -25,7 +27,8 @@ const useSignUp = () => {
       if (data.error) {
         throw new Error(data.error);
       }
-      console.log(data);
+      localStorage.setItem("mern-chat-user", JSON.stringify(data));
+      setAuthUser(data);
     } catch (error) {
       toast.error(error.message);
     } finally {
