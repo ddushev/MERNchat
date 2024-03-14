@@ -13,6 +13,7 @@ const useSignUp = () => {
     const isInputsValid = handleInputErrors(trimmedInputs);
 
     if (!isInputsValid) {
+      setIsLoading(false);
       return;
     }
     setIsLoading(true);
@@ -54,7 +55,7 @@ function handleInputErrors({ fullName, username, password, confirmPassword, gend
   }
 
   if (password.length < 3) {
-    toast.error("Password must be at least 6 characters");
+    toast.error("Password must be at least 3 characters");
     return false;
   }
 

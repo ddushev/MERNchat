@@ -13,9 +13,16 @@ const SignUp = () => {
   });
   const { isLoading, signUp } = useSignUp();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    signUp(inputs);
+    await signUp(inputs);
+    setInputs({
+      fullName: "",
+      username: "",
+      password: "",
+      confirmPassword: "",
+      gender: "",
+    });
   };
 
   const handleGenderChange = (gender) => {
