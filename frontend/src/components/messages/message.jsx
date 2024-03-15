@@ -1,4 +1,4 @@
-const Message = () => {
+const Message = ({ message }) => {
   return (
     <div className={`chat chat-end`}>
       <div className="chat-image avatar">
@@ -9,7 +9,7 @@ const Message = () => {
           />
         </div>
       </div>
-      <div className={`chat-bubble text-white pb-2`}>Hi! How are you?</div>
+      <div className={`chat-bubble text-white pb-2`}>{message.message}</div>
       <div className="chat-footer opacity-50 text-xs flex gap-1 items-center">
         11:51
       </div>
