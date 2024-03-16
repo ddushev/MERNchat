@@ -8,7 +8,7 @@ MERNchat is a single-page application that allows users to register login and lo
 
 ## Brief video demo
 
-[![Demo Thumbnail](https://raw.githubusercontent.com/ddushev/Vention/master/frontend/src/assets/demo.png)](https://youtu.be/RR_9YQrL5K8)
+[![Demo Thumbnail](https://raw.githubusercontent.com/ddushev/MERNchat/master/frontend/src/assets/demo.png)](https://youtu.be/RR_9YQrL5K8)
 
 ## Credentials to login
 
