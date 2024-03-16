@@ -8,6 +8,7 @@ const useListenMessages = () => {
 
   useEffect(() => {
     socket?.on("newMessage", (newMessage) => {
+      newMessage.shouldShake = true;
       setMessages([...messages, newMessage]);
     })
 
@@ -15,4 +16,4 @@ const useListenMessages = () => {
   }, [socket, setMessages, messages]);
 }
 
-export default useListenMessages
+export default useListenMessages;
