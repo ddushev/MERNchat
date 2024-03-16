@@ -7,7 +7,7 @@ https://mernchat-m31c.onrender.com/
 ## Overview
 MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages between eachother.
 
-##Frontend stack
+## Frontend stack
 1. HTML
 2. Tailwind CSS
 3. DaisyUI
@@ -16,7 +16,7 @@ MERNchat is a single-page application that allows users to register login and lo
 6. React-hot-toast
 7. Socket.io
 
-##Backend stack
+## Backend stack
 1. NodeJS
 2. Express
 3. MongoDB
