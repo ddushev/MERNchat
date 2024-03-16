@@ -6,6 +6,10 @@ The app is hosted via [render](https://render.com/) using a free hosting tier wh
 
 MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages to each other.
 
+## Brief video demo
+
+[![Demo Thumbnail](https://raw.githubusercontent.com/ddushev/Vention/master/frontend/src/assets/demo.png)](https://youtu.be/RR_9YQrL5K8)
+
 ## Credentials to login
 
 1. ddushev - 123
