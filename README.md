@@ -38,9 +38,3 @@ You can test the app here --> [MERNchat](https://mernchat-fza2.onrender.com/)
 5. Bcrypt
 6. JWT
 7. Socket.io
-
-## To install locally
-
-```bash
-git clone https://github.com/ddushev/MERNchat.git
-```
