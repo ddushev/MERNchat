@@ -2,7 +2,7 @@
 The app is hosted on [render.com ](https://render.com/) using free hosting tier which can cause initial delay when loading it after more than 30 minutes of inactivity.
 
 ## MERNchat app
-https://mernchat-m31c.onrender.com/
+[https://mernchat-m31c.onrender.com/](https://mernchat-fza2.onrender.com/)
 
 ## Overview
 MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages between eachother.
