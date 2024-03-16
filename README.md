@@ -1,11 +1,11 @@
 # DISCLAIMER: 
-The app is hosted on [render.com ](https://render.com/) using free hosting tier which can cause initial delay when loading it after more than 30 minutes of inactivity.
+The app is hosted via [render.com ](https://render.com/) using a free hosting tier which can cause an initial delay when loading it after more than 30 minutes of inactivity.
 
 ## MERNchat app
-[https://mernchat-m31c.onrender.com/](https://mernchat-fza2.onrender.com/)
+You can test the app here --> [https://mernchat-m31c.onrender.com/](https://mernchat-fza2.onrender.com/)
 
 ## Overview
-MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages between eachother.
+MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages to each other.
 
 ## Frontend stack
 1. HTML
@@ -15,6 +15,7 @@ MERNchat is a single-page application that allows users to register login and lo
 5. Zustand
 6. React-hot-toast
 7. Socket.io
+8. Vite
 
 ## Backend stack
 1. NodeJS
@@ -22,6 +23,6 @@ MERNchat is a single-page application that allows users to register login and lo
 3. MongoDB
 4. Mongoose
 5. Bcrypt
-6. JSONwebtoken
+6. JWT
 7. Socket.io
       
