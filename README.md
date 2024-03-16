@@ -1,11 +1,18 @@
 # DISCLAIMER: 
-The app is hosted via [render.com ](https://render.com/) using a free hosting tier which can cause an initial delay when loading it after more than 30 minutes of inactivity.
+The app is hosted via [render](https://render.com/) using a free hosting tier which can cause an initial delay when loading it after more than 30 minutes of inactivity.
 
 ## MERNchat app
-You can test the app here --> [https://mernchat-m31c.onrender.com/](https://mernchat-fza2.onrender.com/)
+You can test the app here --> [MERNchat](https://mernchat-fza2.onrender.com/)
 
 ## Overview
 MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages to each other.
+
+## Credentials to login
+1. ddushev - 123
+2. johndoe - 123
+3. janedoe - 123
+4. bobdoe - 123
+5. alisdoe - 123
 
 ## Frontend stack
 1. HTML
