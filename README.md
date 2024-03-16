@@ -4,7 +4,7 @@ The app is hosted via [render](https://render.com/) using a free hosting tier wh
 
 ## Overview
 
-MERNchat is a single-page application that allows users to register login and logout into a chat system and send real-time messages to each other.
+MERNchat is a single-page application that allows users to register login and logout into a chat system, search for other users, and send real-time messages to each other.
 
 ## Brief video demo
 
@@ -20,7 +20,7 @@ MERNchat is a single-page application that allows users to register login and lo
 
 ## MERNchat app
 
-You can test the app here --> [MERNchat](https://mernchat-fza2.onrender.com/)
+App is live here --> [MERNchat](https://mernchat-fza2.onrender.com/)
 
 ## Frontend stack
 
