@@ -19,10 +19,6 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 
-app.get("/", (_req, res) => {
-  res.status(200).send("Server is waking up, please wait...");
-});
-
 app.use("/api/auth", authRoutes);
 app.use("/api/message", messageRoutes);
 app.use("/api/users", userRoutes);
