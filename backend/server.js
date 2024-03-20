@@ -19,6 +19,10 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 
+app.get("/", (_req, res) => {
+  res.status(200).send("Server is waking up, please wait...");
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/message", messageRoutes);
 app.use("/api/users", userRoutes);
@@ -29,7 +33,13 @@ app.get("*", (_req, res) => {
   res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
 });
 
-server.listen(PORT, () => {
-  connectToMongoDB();
+server.listen(PORT, async () => {
+  try {
+    await connectToMongoDB();
+  } catch (error) {
+    console.error("Error connecting to MongoDB:", error);
+    process.exit(1);
+  }
+
   console.log(`Server is running on port ${PORT}`);
 });
